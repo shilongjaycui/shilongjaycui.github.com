@@ -1,0 +1,60 @@
+html {
+	font-family: "Courier New", "Time New Roman", serif;
+	font-size: 18px;
+}
+
+.title {
+	text-align: center;
+}
+
+h1 .title {
+	color: rgb(255, 255, 255);
+	background-color: hsl(0, 0%, 0%);
+}
+
+/* Header */
+
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 4.44rem;
+	padding: 0 12%;
+	background-color: White;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+	font-family: Arial, sans-serif;
+	font-size: .77rem;
+}
+
+.header .logo {
+	flex-grow: 1;
+	color: Black;
+}
+
+.header li {
+	display: inline;
+	padding-right: 2.22rem;
+}
+
+.header li a {
+	text-decoration: none;
+	color: #4a4a4a;
+}
+
+
+
+.location {
+	font-style: italic;
+}
+
+li {
+	margin: 10px 0;
+}
+
+.heritage-info li {
+	font-family: Arial;
+}
+
+.contacts {
+	list-style: square;
+}

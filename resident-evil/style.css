@@ -1,0 +1,31 @@
+body {
+	background-color: black !important;
+	background-image: url("images/umbrella.png");
+	background-repeat: repeat-y;
+	background-position: center;
+	opacity: 0.75
+}
+
+p,
+.character {
+	color: white;
+	font-family: Arial;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	opacity: 0.75;
+}
+
+h1.title {
+	color: white;
+	background-color: black;
+	font-family: "Courier New";
+	font-size: 100px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#fav {
+	font-family: "Times New Roman";
+	font-weight: normal;
+}
